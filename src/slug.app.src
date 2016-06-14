@@ -1,0 +1,14 @@
+{application, slug,
+ [
+  {description, "An Erlang slug library"},
+  {vsn, "1"},
+  {modules, [
+             slug
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

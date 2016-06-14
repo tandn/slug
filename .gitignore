@@ -1,0 +1,7 @@
+deps/
+ebin/*
+logs/*
+*.beam
+.vscode/
+.rebar/
+.eunit/

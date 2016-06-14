@@ -23,8 +23,8 @@ Usage
 Slug exposes one function: ```make```, which takes either one or two parameters. The first is the string
 to be slugified and the second is an options proplist:
 
-```{ lower, boolean() }``` - indicates whether upper-case letters should be converted to lower-case. Defaults to true.
-```{ separator, char() }``` - specifies the separator character substituted when spaces or forward-slashes are encountered
+* ```{ lower, boolean() }``` - indicates whether upper-case letters should be converted to lower-case. Defaults to true.
+* ```{ separator, char() }``` - specifies the separator character substituted when spaces or forward-slashes are encountered
 
 Example
 =======

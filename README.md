@@ -13,6 +13,16 @@ You will need:
 * Erlang
 * Rebar
 
+Add slug.erl to your project's dependencies:
+
+```erlang
+{ deps, [
+  { slug, ".*", { git, "git://github.com/wrren/slug.erl.git", { branch, "master" } } }
+] }.
+```
+
+Pull project depedencies, compile and run unit tests.
+
 ```bash
 rebar get-deps compile eunit
 ```

@@ -2,6 +2,9 @@
 -author( "Warren Kenny <warren.kenny@gmail.com>" ).
 -export( [make/1, make/2] ).
 
+-type slug() :: binary() | string().
+-export_type( [slug/0] ).
+
 -define( is_lower( C ), ( C >= $a andalso C =< $z ) ).
 -define( is_upper( C ), ( C >= $A andalso C =< $Z ) ).
 -define( is_digit( C ), ( C >= $0 andalso C =< $9 ) ).

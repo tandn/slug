@@ -1,0 +1,4 @@
+[{<<"want">>,
+  {git,"git://github.com/wrren/want.erl.git",
+       {ref,"9209b5ea898f5b193dff7d8de556ed174cc6ec51"}},
+  0}].
